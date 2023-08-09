@@ -1,6 +1,6 @@
 FROM nsqio/nsq
 
-COPY ./entrypoint.sh .
+COPY entrypoint.sh .
 RUN chmod +x ./entrypoint.sh
 
 EXPOSE 4171
